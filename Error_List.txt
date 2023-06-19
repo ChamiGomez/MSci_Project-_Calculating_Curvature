@@ -1,0 +1,19 @@
+#File documenting known errors and potential areas for improvement
+
+Note: Several of these errors/improvements were not fixed when writing the code due to time constraints/alternative prorities during my MSci Project.
+
+Errors:
+  Marching Cubes Algorithm:
+    1) Error when running Check_Isosurface_Coordinates() and Check_Traingles() at the same time within Marching_Cubes_for_Single_Cube_Test()
+          Currently run one function, output result and then input result to run second function to ensure both have been checked
+    2) Find_Common_Interface() doesn't produce desired output
+          Results required were acheived manually when writing paper to save time
+ 
+ Improvements
+   General:
+      1) Create application .exe file so code can be run from app and not compiler
+      2) Create proper error handling protocol rather than using exit()
+      3) General refactoring
+      4) General improvements in comments =)
+  Surface Smoothing Algorithm:
+      1) Oversmoothing issue causes unsatisfactory results - work on maths behind algorithm requried
