@@ -11,7 +11,7 @@ Errors:
  
  Improvements
    General:
-      1) Create application .exe file so code can be run from app and not compiler
+      1) Create application .exe file so code can be run from app and not compiler (the main() function currently requires commenting in/out the sections which are required)
       2) Create proper error handling protocol rather than using exit()
       3) General refactoring
       4) General improvements in comments =)
