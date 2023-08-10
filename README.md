@@ -13,4 +13,6 @@ The Marching Cubes and Calculating Curvature algorithms run and produce the desi
 
 If I were to develop this further, I would start by debugging some of the current errors in the code, creating an application with the code so that the project doesn't need to be run from within the compiler, and improving the surface smoothing algorithm.
 
+Please note, this code was written for the purposes of my research and so functionality is prioritised over computational efficiency.
+
 For a full list of known errors, please see Error_List.txt
